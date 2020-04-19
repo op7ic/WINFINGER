@@ -31,10 +31,8 @@ The following operating system versions were hashed:
 | Windows 8.1 Enterprise | No | No | No | N/A |
 | Windows 10 Home  | No | No | No | N/A |
 | Windows 10 Pro | No | No | No | N/A |
-| Windows 10 Mobile | No | No | No | N/A |
 | Windows 10 Enterprise | No | No | No | N/A |
 | Windows 10 Enterprise LTSB | No | No | No | N/A |
-| Windows 10 Mobile Enterprise | No | No | No | N/A |
 | Windows 10 Education | No | No | No | N/A |
 | Windows 10 Pro Education | No | No | No | N/A |
 | Windows 10 IoT Core | No | No | No | N/A |
@@ -43,7 +41,7 @@ The following operating system versions were hashed:
 ** Methodology ** 
 
 * Using Packer build each of the above versions as VirtualBox VM
-* Hash the base image files in VMDK
+* Hash the base image files in VMDK using FTK Imager
 * Install Sysmon
-* Allow for full updates while sysmon logs all hashes
+* Allow for full updates while sysmon logs all hashes up to latest patch/version
 * Extract all hashes from Sysmon

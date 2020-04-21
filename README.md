@@ -57,11 +57,11 @@ Each file is named using the same naming convention:
 
 *(Windows Version)_(x64 or x86)_(Major Edition)_(Service Pack, if any)_(Minor Edition, if any)_(updated or base)*
 
-For example, the following would be Windows XP Professional 64 bit with Service Pack 2, base image: 
+For example, the following filename would correspond to Windows XP Professional 64 bit with Service Pack 2, base image: 
 
 * WindowsXP_x64_professional_SP3_base.csv *
 
-For example, the following would be Windows XP Professional N 64 bit with Service Pack 2, base image: 
+For example, the following filename would correspond to Windows XP Professional N 64 bit with Service Pack 2, base image: 
 
 * WindowsXP_x64_professional_SP3_n_base.csv *
 

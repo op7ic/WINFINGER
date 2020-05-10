@@ -1,6 +1,6 @@
 # WINFINGER
 
-This repository contains various windows fingerprint files generated against base ISO images.
+This repository contains windows OS fingerprint files generated against install and boot WIM archives.
 
 **Coverage**
 
@@ -8,12 +8,54 @@ The following operating system versions were hashed:
 
 | Windows Version | x86 | x64 | Base install.wim hash | Base boot.wim hash | 
 | ------------- | ------------- | ------------- | ------------- |
-| Windows Vista Home Basic | Yes | Yes | Yes | Yes | 
-| Windows Vista Home Premium | Yes | Yes | Yes | Yes | 
-| Windows Vista Business | Yes | Yes | Yes |  Yes | 
-| Windows Vista Ultimate | Yes | Yes | Yes |  Yes | 
-| Windows Vista Starter | Yes | No | Yes | Yes | 
+| Windows Vista | Yes | Yes | Yes | Yes | 
+| Windows Vista Ultimate | Yes | Yes | Yes | Yes | 
 | Windows Vista Enterprise | Yes | Yes | Yes | Yes | 
+| Windows 7 Debug Checked | Yes | Yes | Yes | Yes | 
+| Windows 7 Embedded POSReady | Yes | Yes | Yes | Yes | 
+| Windows 7 Embedded Standard | Yes | Yes | Yes | Yes | 
+| Windows 7 Enterprise | Yes | Yes | Yes | Yes | 
+| Windows 7 Home Basic | Yes | No | Yes | Yes | 
+| Windows 7 Home Professional | Yes | No | Yes | Yes | 
+| Windows 7 Professional | Yes | Yes | Yes | Yes | 
+| Windows 7 Starter | Yes | No | Yes | Yes | 
+| Windows 7 Ultimate | Yes | Yes | Yes | Yes | 
+| Windows 8 | Yes | Yes | Yes | Yes | 
+| Windows 8 Embedded Industry Pro | Yes | Yes | Yes | Yes | 
+| Windows 8 Enterprise | Yes | Yes | Yes | Yes | 
+| Windows 8 Pro | Yes | Yes | Yes | Yes | 
+| Windows 8.1 Debug Checked | Yes | Yes | Yes | Yes | 
+| Windows 8.1 Embedded | Yes | Yes | Yes | Yes | 
+| Windows 8.1 Enterprise | Yes | Yes | Yes | Yes | 
+| Windows 8.1 Pro | Yes | Yes | Yes | Yes | 
+| Windows 8.1 | Yes | Yes | Yes | Yes | 
+| Windows 10 Business Editions | Yes | Yes | Yes | Yes | 
+| Windows 10 Consumer Editions | Yes | No | Yes | Yes | 
+| Windows 10 Education | Yes | Yes | Yes | Yes | 
+| Windows 10 Enterprise | Yes | Yes | Yes | Yes | 
+| Windows 10 IOT | Yes | Yes | Yes | Yes | 
+| Windows 10 | Yes | Yes | Yes | Yes | 
+| Windows Server 2008 | Yes | Yes | Yes | Yes | 
+| Windows Server 2008 Web Server | Yes | Yes | Yes | Yes | 
+| Windows Server 2008R2 | No | Yes | Yes | Yes | 
+| Windows Server 2008R2 HPC | No | Yes | Yes | Yes | 
+| Windows Server 2012 | No | Yes | Yes | Yes | 
+| Windows Server 2012 Debug Checked | No | Yes | Yes | Yes | 
+| Windows Server 2012 Multipoint Premium | No | Yes | Yes | Yes | 
+| Windows Server 2012 Multipoint Standard | No | Yes | Yes | Yes | 
+| Windows Server 2012R2 | No | Yes | Yes | Yes | 
+| Windows Server 2012R2 Debug Checked | No | Yes | Yes | Yes | 
+| Windows Server 2012R2 Essentials | No | Yes | Yes | Yes | 
+| Windows Server 2016 Essentials | No | Yes | Yes | Yes | 
+| Windows Server 2016 | No | Yes | Yes | Yes | 
+| Windows Server 2016 Storage Server | No | Yes | Yes | Yes | 
+| Windows Server 2019 Essentials | No | Yes | Yes | Yes | 
+| Windows Server 2019 | No | Yes | Yes | Yes | 
+| Windows Server 1709 | No | Yes | Yes | Yes | 
+| Windows Server 1803 | No | Yes | Yes | Yes | 
+| Windows Server 1809 | No | Yes | Yes | Yes | 
+| Windows Server 1903 | No | Yes | Yes | Yes | 
+| Windows Server 1909 | No | Yes | Yes | Yes | 
 
 
 ** Methodology ** 

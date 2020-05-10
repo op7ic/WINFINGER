@@ -7,8 +7,8 @@ This repository contains windows OS fingerprint files generated against install 
 The following operating system versions were hashed:
 
 | Windows Version | x86 | x64 | Base install.wim hash | Base boot.wim hash | 
-| ------------- | ------------- | ------------- | ------------- |
-| Windows Vista | Yes | Yes | Yes | Yes | 
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Windows Vista | Yes | Yes | Yes | Yes | Yes | 
 | Windows Vista Ultimate | Yes | Yes | Yes | Yes | 
 | Windows Vista Enterprise | Yes | Yes | Yes | Yes | 
 | Windows 7 Debug Checked | Yes | Yes | Yes | Yes | 
@@ -67,3 +67,7 @@ The following operating system versions were hashed:
  * Use sigcheck64.exe from [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/) to create signature files for extracted archives
  * Create 7zip of corresponding directory
 
+** Getting Hashes out **
+
+- Convert all files to unix format for easy grepping using ```$ dos2unix.exe -f */*.csv``` command. 
+- grep/awk hash type you need or use csvtool

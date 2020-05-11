@@ -38,7 +38,6 @@ The following operating system versions were hashed:
 | Windows Server 2008 | Yes | Yes | Yes | Yes | 
 | Windows Server 2008 Web Server | Yes | Yes | Yes | Yes | 
 | Windows Server 2008R2 | No | Yes | Yes | Yes | 
-| Windows Server 2008R2 HPC | No | Yes | Yes | Yes | 
 | Windows Server 2012 | No | Yes | Yes | Yes | 
 | Windows Server 2012 Debug Checked | No | Yes | Yes | Yes | 
 | Windows Server 2012 Multipoint Premium | No | Yes | Yes | Yes | 

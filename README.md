@@ -1,6 +1,6 @@
 # WINFINGER
 
-This repository contains windows OS fingerprint files generated against install and boot WIM archives.
+This repository contains windows OS fingerprint files generated against both 'install' and 'boot' WIM archives.
 
 **Coverage**
 

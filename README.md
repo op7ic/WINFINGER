@@ -70,7 +70,7 @@ The following operating system versions were hashed:
 
 - Convert all files to unix format for easy grepping using ```$ dos2unix.exe -f */*.csv``` command. 
 - grep/awk hash type you need or use csvtool
-- Basic hashes are located in the basehash folder:
+- Unique hashes are located in the [basehash](basehash/) folder:
   - [PESHA256](basehash/UniqPESHA256.txt)
   - [SHA256](basehash/UniqSHA256.txt)
   - [SHA1](basehash/UniqSHA1.txt)

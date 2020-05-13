@@ -60,11 +60,11 @@ The following operating system versions were hashed:
  ## Methodology
 
 * For each ISO:
- * Extract boot.wim and install.wim
- * Hash ISO file to generate SHA1
- * Unpack boot.wim and install.wim to folder named after SHA1 of the ISO
- * Use sigcheck64.exe from [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/) to create signature files for binary files from extracted archives
- * Create 7zip of corresponding directory
+  * Extract boot.wim and install.wim
+  * Hash ISO file to generate SHA1
+  * Unpack boot.wim and install.wim to folder named after SHA1 of the ISO
+  * Use sigcheck64.exe from [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/) to create signature files for binary files from extracted archives
+  * Create 7zip of corresponding directory (-mx9 option)
 
  ## Getting Hashes out
 

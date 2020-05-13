@@ -57,7 +57,7 @@ The following operating system versions were hashed:
 | Windows Server 1909 | No | Yes | Yes | Yes | 
 
 
-** Methodology ** 
+**Methodology** 
 
 * For each ISO:
  * Extract boot.wim and install.wim
@@ -66,7 +66,7 @@ The following operating system versions were hashed:
  * Use sigcheck64.exe from [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/) to create signature files for binary files from extracted archives
  * Create 7zip of corresponding directory
 
-** Getting Hashes out **
+**Getting Hashes out**
 
 - Convert all files to unix format for easy grepping using ```$ dos2unix.exe -f */*.csv``` command. 
 - grep/awk hash type you need or use csvtool

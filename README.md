@@ -4,7 +4,7 @@ This repository contains windows OS fingerprint files generated against both 'in
 
 **Coverage**
 
-The following operating system versions were hashed:
+The following families of operating system versions were hashed:
 
 | Windows Version | x86 | x64 | Base install.wim hash | Base boot.wim hash | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -42,6 +42,7 @@ The following operating system versions were hashed:
 | Windows Server 2012 Debug Checked | No | Yes | Yes | Yes | 
 | Windows Server 2012 Multipoint Premium | No | Yes | Yes | Yes | 
 | Windows Server 2012 Multipoint Standard | No | Yes | Yes | Yes | 
+| Windows Server 2012 Storage Server Foundation | No | Yes | Yes | Yes | 
 | Windows Server 2012R2 | No | Yes | Yes | Yes | 
 | Windows Server 2012R2 Debug Checked | No | Yes | Yes | Yes | 
 | Windows Server 2012R2 Essentials | No | Yes | Yes | Yes | 
@@ -70,3 +71,17 @@ The following operating system versions were hashed:
 
 - Convert all files to unix format for easy grepping using ```$ dos2unix.exe -f */*.csv``` command. 
 - grep/awk hash type you need or use csvtool
+
+** Removing Headers **
+If headers need to be removed and CVS adjusted for easy parsing, run the following ``sed`` commands:
+```
+sed -i -e '/Sigcheck v2.73 - File version and signature viewer/d' */*
+sed -i -e '/Copyright (C) 2004-2019 Mark Russinovich/d' */*
+sed -i -e '/Sysinternals - www.sysinternals.com/d' */*
+sed -i -e '1{/^$/d}' */*
+sed -i -e '1{/^$/d}' */*
+```
+
+** TODO **
+
+[ ] Hash Windows Updates

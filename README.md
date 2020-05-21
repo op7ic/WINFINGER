@@ -73,7 +73,8 @@ The following families of operating system versions were hashed:
 - grep/awk hash type you need or use csvtool
 
 **Removing Headers**
-If headers need to be removed and CVS adjusted for easy parsing, run the following ``sed`` commands:
+
+If headers need to be removed and CSV adjusted for easy parsing, run the following ``sed`` commands:
 ```
 sed -i -e '/Sigcheck v2.73 - File version and signature viewer/d' */*
 sed -i -e '/Copyright (C) 2004-2019 Mark Russinovich/d' */*
